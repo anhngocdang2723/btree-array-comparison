@@ -1,9 +1,9 @@
 import time
 import pandas as pd
-from btree import BTree
+from module.btree import BTree
 import concurrent.futures
 import threading
-from data_config import generate_record
+from module.data_config import generate_record
 
 class DataStructureComparison:
     def __init__(self):

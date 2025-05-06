@@ -1,7 +1,7 @@
-from comparison import DataStructureComparison
+from module.comparison import DataStructureComparison
 import time
 import os
-from result_exporter import ResultExporter
+from module.result_exporter import ResultExporter
 
 def run_comparison(file_path, operations=1000, concurrent=False, max_workers=4):
     print(f"\nRunning comparison with dataset: {os.path.basename(file_path)}")

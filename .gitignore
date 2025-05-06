@@ -1,4 +1,4 @@
-data/
+Data/
 *.csv
 Results/
 __pycache__/
